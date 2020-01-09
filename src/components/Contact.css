@@ -1,0 +1,126 @@
+#contact {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:comfortaa;
+  color: black;
+  
+  }
+  .contact-form {
+    width: 350px;
+    
+    
+    padding: 5px;
+    
+  }
+ 
+.contact-header {
+    position: relative;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  font-family:comfortaa;
+  font-size: 20px;
+
+  
+
+  
+  }
+
+
+  .input {
+    margin: 40px auto;
+     
+
+  }
+
+ 
+
+  .input input{
+
+    font: inherit;
+    width: 100%;
+    padding: 6px 12px;
+    background-color: transparent;
+     border-color: transparent;
+   border-bottom-color: #2f2f2f;
+  
+  }
+  .input textarea{
+    font: inherit;
+    width: 100%;
+    padding: 6px 12px;
+    background-color: transparent;
+    border: solid 2px  #2f2f2f;
+ }
+
+  .input p{
+    font-size: 20px;
+    color: #ff4d5a;
+    margin-top: 8px;
+  
+  }
+   
+
+  .input.inline input {
+    width: auto;
+  }
+
+  .input input:focus {
+    
+    outline: none;
+    border-bottom-color: #ff4d5a;
+    color: black;
+  }
+  .input textarea:focus {
+    outline: none;
+    border-color: #ff4d5a;
+    color: black;
+  }
+
+  .input.invalid input{
+       border-bottom-color: #ff4d5a;
+       color: #ff4d5a;
+  }
+  .input.invalid textarea{
+       border-color: #ff4d5a;
+       color: #ff4d5a;
+  }
+
+  .submit button {
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 10px;
+    font: inherit;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translate(-50%); 
+    font-size: 20px;
+    width: 200px;
+    
+  }
+
+  .submit button:hover,
+  .submit button:active
+  {
+    background-color: white;
+    color: black;
+    outline: none;
+  }
+   .submit button:focus {
+    
+    outline: none;
+  }
+
+  .submit button[disabled],
+  .submit button[disabled]:hover,
+  .submit button[disabled]:active {
+    border: 1px solid #ff4d5a;
+    background-color: transparent;
+    color: #ff4d5a;
+    cursor: not-allowed;
+    outline: none;
+  }
