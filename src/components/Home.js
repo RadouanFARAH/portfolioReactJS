@@ -6,9 +6,9 @@ export class Home extends Component {
         return (
 	<div>
 		 <div class="text-box">
-                <h1 class="heading-primary">
-                   <span class="heading-primary-main">Redouane FARAH</span>
-                   <span class="heading-primary-sub">FULL STACK JAVASCRIPT DEVELOPER</span>
+                <h1 className="heading-primary">
+                   <span className="heading-primary-main">Redouane FARAH</span>
+                   <span className="heading-primary-sub">FULL STACK JAVASCRIPT DEVELOPER</span>
                 </h1>
            </div>
 	 </div>

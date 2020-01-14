@@ -1,6 +1,5 @@
 
 nav {
-  width: 95%;
   color: rgb(175, 166, 166);
   min-height: 50px;
   font-family:comfortaa
@@ -16,7 +15,7 @@ nav {
  }
 
 .item {
-  border: black 2px;
+  border: white 2px;
   padding: 1px;
   margin-top: 1.4em;
   float: right;
@@ -24,7 +23,7 @@ nav {
   outline: none;
   font-size: 15px;
   font-weight: 600;
-  color:black;
+  color:white;
   text-decoration: none;
 }
 

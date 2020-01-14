@@ -59,8 +59,8 @@ a{
       box-shadow: 0 0 10px 2px #606060;
       background-color: #fff;
   }   
-    img {
-      width: 100%;
+  .card-cover>img {
+     width: 100%;
       height: auto;
           
     }
@@ -76,21 +76,7 @@ a{
           display: block;
          }
     
-   
-
-  .mobile-cover {
-    
-       
-       text-align: center;
-       margin-bottom: 20px;
-}  
-    img {
-      
-      height: 200px;
-      width: auto;
   
-      
-    }
 
   
   .active-btn {
@@ -114,8 +100,3 @@ a{
   
 }
 }
-      .header{
-        padding: 0 20px;
-        box-sizing: border-box;
-      }
-   
